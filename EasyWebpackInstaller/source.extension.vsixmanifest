@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="EasyWebpackInstaller.fe7d2274-3ed5-4815-959f-f1804a0f28bd" Version="1.0" Language="en-US" Publisher="Postlagerkarte" />
+        <DisplayName>EasyWebpack</DisplayName>
+        <Description xml:space="preserve">adding webpack to the default asp.net core template</Description>
+        <MoreInfo>https://github.com/Postlagerkarte/EasyWebpack</MoreInfo>
+        <Tags>Webpack Razor Pages</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Version="[17.0)" Id="Microsoft.VisualStudio.Enterprise" />
+        <InstallationTarget Version="[17.0)" Id="Microsoft.VisualStudio.Community" />
+        <InstallationTarget Version="[17.0)" Id="Microsoft.VisualStudio.Pro" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\EasyWebpack.zip" />
+    </Assets>
+</PackageManifest>
