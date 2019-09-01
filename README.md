@@ -1,6 +1,6 @@
-#Visual Studio project template for Razor Pages with webpack
+# Easily add Webpack to ASP.NET CORE Razor Pages
 
-This VS extension should provide you with a an effective and quick start for using Razor Pages together with webpack. 
+This VS extension provides you with a an effective and quick start for using Razor Pages together with webpack. 
 
 If you create a project with this template you can instantly use npm to install packages. The default Razor Page template includes Bootstrap 4 and jQuery via a CDN - in this template those dependencies also are installed via npm.
 
