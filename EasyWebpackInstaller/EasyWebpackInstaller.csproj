@@ -49,8 +49,11 @@
     <Compile Include="EasyWebpackInstallerPackage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="EasyWebpack.zip" />
-    <Content Include="ProjectTemplates\EasyWebpack.zip">
+    <Content Include="3d.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\EasyWebpackForRazorPages.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
