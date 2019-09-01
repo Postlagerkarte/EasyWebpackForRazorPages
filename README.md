@@ -1,4 +1,4 @@
-# Easily add Webpack to ASP.NET CORE Razor Pages
+# Add Webpack to ASP.NET CORE Razor Pages
 
 This VS extension provides you with a an effective and quick start for using Razor Pages together with webpack. 
 
