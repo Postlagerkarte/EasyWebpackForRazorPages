@@ -39,7 +39,15 @@ const _module = {
             options: {
                 name: 'img/[name].[ext]'
             }
-        }]
+        },
+        {
+            test: /\.(woff|woff2|eot|ttf|otf)$/,
+            loader: 'file-loader',
+            options: {
+                name: 'fonts/[name].[ext]'
+            }
+        }
+    ]
 };
 
 module.exports = {
