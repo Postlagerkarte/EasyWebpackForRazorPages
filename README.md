@@ -2,6 +2,8 @@
 
 This VS extension provides you with a an effective and quick start for using Razor Pages together with webpack. 
 
+Grab the extension [here](https://github.com/Postlagerkarte/EasyWebpackForRazorPages/releases/download/1.0/EasyWebpackInstaller.vsix) or clone the repository.
+
 If you create a project with this template you can instantly use npm to install packages. The default Razor Page template includes Bootstrap 4 and jQuery via a CDN - in this template those dependencies also are installed via npm.
 
 You put your source files into the /src folder:
